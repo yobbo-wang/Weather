@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821322739B6CDF694D9552CD /* Pods_Wehter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FD2A61077B2014298BB7B /* Pods_Wehter.framework */; };
+		CB14D8C41FD1512700B18059 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB14D8C31FD1512700B18059 /* images.xcassets */; };
+		CB7002481FD26416008CF7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7002461FD26416008CF7E8 /* Main.storyboard */; };
 		CB865BF01FCFE1D300B49F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB865BEF1FCFE1D300B49F11 /* AppDelegate.swift */; };
 		CB865BF21FCFE1D300B49F11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB865BF11FCFE1D300B49F11 /* ViewController.swift */; };
-		CB865BF51FCFE1D300B49F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB865BF31FCFE1D300B49F11 /* Main.storyboard */; };
-		CB865BF71FCFE1D300B49F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB865BF61FCFE1D300B49F11 /* Assets.xcassets */; };
 		CB865BFA1FCFE1D300B49F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB865BF81FCFE1D300B49F11 /* LaunchScreen.storyboard */; };
 		CB865C051FCFE1D400B49F11 /* WehterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB865C041FCFE1D400B49F11 /* WehterTests.swift */; };
 		CB865C101FCFE1D400B49F11 /* WehterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB865C0F1FCFE1D400B49F11 /* WehterUITests.swift */; };
+		CBC1B5151FD2EE5F00CB7E4B /* background_summer.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC1B5131FD2EE5F00CB7E4B /* background_summer.png */; };
+		CBC1B5161FD2EE5F00CB7E4B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC1B5141FD2EE5F00CB7E4B /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213FD2A61077B2014298BB7B /* Pods_Wehter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wehter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0588CBCE7D423ABA8C25A7 /* Pods-Wehter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wehter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wehter/Pods-Wehter.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F332801102BED6738AB96D /* Pods-Wehter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wehter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wehter/Pods-Wehter.release.xcconfig"; sourceTree = "<group>"; };
+		CB14D8C31FD1512700B18059 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		CB7002431FD23C09008CF7E8 /* Wehter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wehter-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB7002471FD26416008CF7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB865BEC1FCFE1D300B49F11 /* Wehter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wehter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB865BEF1FCFE1D300B49F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB865BF11FCFE1D300B49F11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB865BF41FCFE1D300B49F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB865BF61FCFE1D300B49F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB865BF91FCFE1D300B49F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB865BFB1FCFE1D300B49F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB865C001FCFE1D400B49F11 /* WehterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WehterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +54,8 @@
 		CB865C0B1FCFE1D400B49F11 /* WehterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WehterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB865C0F1FCFE1D400B49F11 /* WehterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WehterUITests.swift; sourceTree = "<group>"; };
 		CB865C111FCFE1D400B49F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1B5131FD2EE5F00CB7E4B /* background_summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_summer.png; sourceTree = "<group>"; };
+		CBC1B5141FD2EE5F00CB7E4B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821322739B6CDF694D9552CD /* Pods_Wehter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1382DB5266B233AFA9919A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213FD2A61077B2014298BB7B /* Pods_Wehter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		873C16989F42D14D630C84E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C0588CBCE7D423ABA8C25A7 /* Pods-Wehter.debug.xcconfig */,
+				C2F332801102BED6738AB96D /* Pods-Wehter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB865BE31FCFE1D300B49F11 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				CB865C031FCFE1D400B49F11 /* WehterTests */,
 				CB865C0E1FCFE1D400B49F11 /* WehterUITests */,
 				CB865BED1FCFE1D300B49F11 /* Products */,
+				873C16989F42D14D630C84E3 /* Pods */,
+				1382DB5266B233AFA9919A51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +126,15 @@
 		CB865BEE1FCFE1D300B49F11 /* Wehter */ = {
 			isa = PBXGroup;
 			children = (
+				CBC1B5131FD2EE5F00CB7E4B /* background_summer.png */,
+				CBC1B5141FD2EE5F00CB7E4B /* background.png */,
+				CB7002461FD26416008CF7E8 /* Main.storyboard */,
 				CB865BEF1FCFE1D300B49F11 /* AppDelegate.swift */,
 				CB865BF11FCFE1D300B49F11 /* ViewController.swift */,
-				CB865BF31FCFE1D300B49F11 /* Main.storyboard */,
-				CB865BF61FCFE1D300B49F11 /* Assets.xcassets */,
 				CB865BF81FCFE1D300B49F11 /* LaunchScreen.storyboard */,
 				CB865BFB1FCFE1D300B49F11 /* Info.plist */,
+				CB14D8C31FD1512700B18059 /* images.xcassets */,
+				CB7002431FD23C09008CF7E8 /* Wehter-Bridging-Header.h */,
 			);
 			path = Wehter;
 			sourceTree = "<group>";
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB865C141FCFE1D400B49F11 /* Build configuration list for PBXNativeTarget "Wehter" */;
 			buildPhases = (
+				9A9601703C4D05F854966E9E /* [CP] Check Pods Manifest.lock */,
 				CB865BE81FCFE1D300B49F11 /* Sources */,
 				CB865BE91FCFE1D300B49F11 /* Frameworks */,
 				CB865BEA1FCFE1D300B49F11 /* Resources */,
+				FE7129AC2D0A58631067C5CE /* [CP] Embed Pods Frameworks */,
+				D93B13F2BE53CE4766AAB1F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC1B5151FD2EE5F00CB7E4B /* background_summer.png in Resources */,
+				CBC1B5161FD2EE5F00CB7E4B /* background.png in Resources */,
+				CB7002481FD26416008CF7E8 /* Main.storyboard in Resources */,
 				CB865BFA1FCFE1D300B49F11 /* LaunchScreen.storyboard in Resources */,
-				CB865BF71FCFE1D300B49F11 /* Assets.xcassets in Resources */,
-				CB865BF51FCFE1D300B49F11 /* Main.storyboard in Resources */,
+				CB14D8C41FD1512700B18059 /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +287,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A9601703C4D05F854966E9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wehter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93B13F2BE53CE4766AAB1F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wehter/Pods-Wehter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7129AC2D0A58631067C5CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wehter/Pods-Wehter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wehter/Pods-Wehter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB865BE81FCFE1D300B49F11 /* Sources */ = {
@@ -293,10 +384,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CB865BF31FCFE1D300B49F11 /* Main.storyboard */ = {
+		CB7002461FD26416008CF7E8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB865BF41FCFE1D300B49F11 /* Base */,
+				CB7002471FD26416008CF7E8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -395,23 +486,27 @@
 		};
 		CB865C151FCFE1D400B49F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0588CBCE7D423ABA8C25A7 /* Pods-Wehter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wehter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yobbo.wang.Wehter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wehter/Wehter-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		CB865C161FCFE1D400B49F11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F332801102BED6738AB96D /* Pods-Wehter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wehter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yobbo.wang.Wehter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wehter/Wehter-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +577,7 @@
 				CB865C161FCFE1D400B49F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB865C171FCFE1D400B49F11 /* Build configuration list for PBXNativeTarget "WehterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +586,7 @@
 				CB865C191FCFE1D400B49F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB865C1A1FCFE1D400B49F11 /* Build configuration list for PBXNativeTarget "WehterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +595,7 @@
 				CB865C1C1FCFE1D400B49F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
